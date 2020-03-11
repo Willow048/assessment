@@ -3,6 +3,10 @@
 body {
     background: #d6f9dd;
 }
+
+img {
+    max-width: 100%
+}
 /* --------------------HEADINGS AND TYPE */ 
 h1 {
     font-size: 50px;
@@ -21,7 +25,20 @@ h2 {
     font-family: 'Times New Roman', Times, serif;
     color: black
 }
+
+h1,
+h2,
+h3 {
+    font-family: 'Roboto', sans-serif;
+}
 /* --------------------LAYOUTS */ 
+.content {
+    background-color: #abdf75;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Roboto', sans-serif;
+}
 /* --------------------HEADER */ 
 /* --------------------NAVIGATION */ 
 /* --------------------FOOTER */ 
