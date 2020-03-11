@@ -1,0 +1,32 @@
+/* --------------------VARIABLES */ 
+/* --------------------GLOBAL DEFAULTS */ 
+body {
+    background: #d6f9dd;
+}
+/* --------------------HEADINGS AND TYPE */ 
+h1 {
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black
+}
+
+p {
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black
+}
+
+h2 {
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black
+}
+/* --------------------LAYOUTS */ 
+/* --------------------HEADER */ 
+/* --------------------NAVIGATION */ 
+/* --------------------FOOTER */ 
+/* --------------------MODULES */
+
+
+
+
