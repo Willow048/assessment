@@ -2,7 +2,12 @@
 /* --------------------GLOBAL DEFAULTS */ 
 body {
     background: #d6f9dd;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #666666;
+    font-size: 18px;
+    line-height: 1.4;
 }
+
 
 img {
     max-width: 100%
