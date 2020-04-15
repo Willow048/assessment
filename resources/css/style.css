@@ -1,50 +1,13 @@
-/* --------------------VARIABLES */ 
-/* --------------------GLOBAL DEFAULTS */ 
-body {
-    background: #d6f9dd;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: #666666;
-    font-size: 18px;
-    line-height: 1.4;
-}
-
-
-img {
-    max-width: 100%
-}
-/* --------------------HEADINGS AND TYPE */ 
-h1 {
-    font-size: 50px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: black
-}
-
-p {
-    font-size: 12px;
-    font-family: 'Times New Roman', Times, serif;
-    color: black
-}
-
-h2 {
-    font-size: 25px;
-    font-family: 'Times New Roman', Times, serif;
-    color: black
-}
-
-h1,
-h2,
-h3 {
-    font-family: 'Roboto', sans-serif;
 /* -------------------- VARIABLES */ 
 
 :root {
-    --main-bg-color: #f1f1f1;
+    --main-bg-color: #d6f9dd;
 
     --vertical-spacer: 20px;
 
     --padder: 3%;
 
-    --alternate-bg-color: #191931;
+    --alternate-bg-color: #abdf75;
 
     --link-colour: rgb(107, 8, 8);
     --hover-colour: #000;
@@ -71,8 +34,8 @@ body {
     background-attachment: fixed;
 
 
-    font-family: Arial, Helvetica, sans-serif;
-    color: #666;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #000000;
     font-size: 18px;
     line-height: 1.4;
 
@@ -89,10 +52,6 @@ audio {
 img {
     height: auto;
 }
-
-
-
-
 
 /* -------------------- HEADINGS AND TYPE */ 
 
@@ -138,12 +97,10 @@ a:hover {
 }
 
 .section-header {
-    background-color: yellow;
+    background-color: #99f7ab;
     padding: 20px 0;
     text-align: center;
 }
-
-
 
 /* -------------------- LAYOUTS */ 
 .content {
@@ -156,8 +113,6 @@ a:hover {
 
 }
 
-
-
 /* -------------------- HEADER */ 
 
 header {
@@ -166,7 +121,7 @@ header {
     padding-bottom: var(--vertical-spacer);
 
     text-align: center;
-    color: #fff;
+    color: #000000;
 }
 
 header a {
@@ -235,7 +190,7 @@ header a {
 }
 
 .navigation a {
-    color: #fff;
+    color: #000000;
 }
 
 
@@ -247,7 +202,7 @@ footer {
     padding-bottom: var(--vertical-spacer);
 
     text-align: center;
-    color: #fff;
+    color: #000000;
 }
 
 
@@ -386,11 +341,6 @@ main a:hover img {
         grid-template-columns: repeat(3, 1fr);
     }
 } 
-
-
-
-
-
 
 
 
